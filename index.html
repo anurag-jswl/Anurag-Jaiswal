@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anurag Jaiswal | B.Tech CSE Student & Tech Enthusiast</title>
+
+  <!-- SEO & Social Meta Tags -->
+  <meta name="description"
+    content="Personal portfolio of Anurag Jaiswal, a first-year B.Tech Computer Science & Engineering student at Bennett University. Tech enthusiast exploring programming, web development, and AI.">
+  <meta name="keywords"
+    content="Anurag Jaiswal, Bennett University, B.Tech CSE, Student Portfolio, Python, Web Development, Tech Enthusiast">
+  <meta name="author" content="Anurag Jaiswal">
+  <meta name="theme-color" content="#0a0f18">
+
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Anurag Jaiswal | B.Tech CSE Portfolio">
+  <meta property="og:description"
+    content="Explore my learning journey, skills, interests, and aspirations in Computer Science & Technology.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,700;1,400&family=Outfit:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- Ambient background glow elements -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="ambient-glow glow-3" aria-hidden="true"></div>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- Scroll Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress-bar" aria-hidden="true"></div>
+
+  <!-- Sticky Navbar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar container" id="navbar" aria-label="Main Navigation">
+      <a href="#home" class="nav-logo" id="nav-logo">
+        <span class="logo-bracket">&lt;</span><span class="logo-name">ANURAG</span><span class="logo-slash">
+          /</span><span class="logo-bracket">&gt;</span>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <ul class="nav-menu" id="nav-menu">
+        <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        <li class="nav-item"><a href="#interests" class="nav-link">Interests</a></li>
+        <li class="nav-item"><a href="#learning" class="nav-link">Learning</a></li>
+        <li class="nav-item"><a href="#journey" class="nav-link">Journey</a></li>
+        <li class="nav-item"><a href="#contact" class="nav-link nav-btn-highlight">Contact</a></li>
+      </ul>
+
+      <!-- Mobile Hamburger Button -->
+      <button class="hamburger-btn" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false"
+        aria-controls="nav-menu">
+        <span class="bar bar-1"></span>
+        <span class="bar bar-2"></span>
+        <span class="bar bar-3"></span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero-section section-padding">
+      <div class="container hero-container">
+
+        <!-- Left Content -->
+        <div class="hero-text-content reveal-on-scroll">
+
+          <!-- Status Badge -->
+          <div class="status-badge" id="status-badge">
+            <span class="pulse-dot"></span>
+            <span class="badge-text">Currently Learning &amp; Building</span>
+          </div>
+
+          <div class="hero-greeting">HELLO, I'M</div>
+          <h1 class="hero-title">
+            Anurag <span class="text-gradient">Jaiswal</span>
+          </h1>
+          <p class="hero-subtitle">
+            B.Tech CSE Student <span class="bullet-sep">•</span> Explorer <span class="bullet-sep">•</span>
+            Learner
+          </p>
+
+          <p class="hero-description">
+            I'm a first-year Computer Science student at Bennett University, currently building my fundamentals in
+            programming and exploring different areas of technology. I enjoy learning by experimenting, building small
+            things, and figuring out how things work.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#about" class="btn btn-primary">
+              <span>Explore More</span>
+              <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18" aria-hidden="true">
+                <path fill-rule="evenodd"
+                  d="M10 3a1 1 0 011 1v10.586l3.293-3.293a1 1 0 111.414 1.414l-5 5a1 1 0 01-1.414 0l-5-5a1 1 0 111.414-1.414L9 14.586V4a1 1 0 011-1z"
+                  clip-rule="evenodd" />
+              </svg>
+            </a>
+            <a href="mailto:anuragjaiswal9136@gmail.com" class="btn btn-secondary">
+              <span>Let's Connect</span>
+              <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18" aria-hidden="true">
+                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
+              </svg>
+            </a>
+          </div>
+
+          <!-- Quick Quicklinks/Badges -->
+          <div class="hero-quick-meta">
+            <div class="meta-tag">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" />
+              </svg>
+              <span>Bennett University</span>
+            </div>
+            <div class="meta-tag">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                <line x1="8" y1="21" x2="16" y2="21"></line>
+                <line x1="12" y1="17" x2="12" y2="21"></line>
+              </svg>
+              <span>1st Year CSE</span>
+            </div>
+            <div class="meta-tag">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path>
+              </svg>
+              <span>Exploring Technology</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Visual: Interactive Developer Terminal / Code Visual -->
+        <div class="hero-visual-wrapper reveal-on-scroll">
+          <div class="terminal-card glass-card" id="hero-terminal">
+
+            <!-- Terminal Header -->
+            <div class="terminal-header">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+              </div>
+
+              <!-- Tabs -->
+              <div class="terminal-tabs">
+                <button class="terminal-tab active" data-tab="tab-py" id="tab-btn-py">
+                  <span class="tab-icon-py">🐍</span> anurag.py
+                </button>
+                <button class="terminal-tab" data-tab="tab-about" id="tab-btn-about">
+                  <span class="tab-icon-py">🐍</span> about.py
+                </button>
+              </div>
+
+              <div class="terminal-actions">
+                <button class="copy-code-btn" id="copy-terminal-btn" aria-label="Copy code to clipboard"
+                  title="Copy code">
+                  <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                    <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                  </svg>
+                  <span class="copy-text">Copy</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- Tab 1: Python -->
+            <div class="terminal-body tab-content active" id="tab-py">
+              <pre><code class="code-block"><span class="code-var">name</span> = <span class="code-string">"Anurag Jaiswal"</span>
+<span class="code-var">degree</span> = <span class="code-string">"B.Tech CSE"</span>
+
+<span class="code-var">learning</span> = [
+    <span class="code-string">"Python"</span>,
+    <span class="code-string">"Web Development"</span>,
+    <span class="code-string">"Problem Solving"</span>
+]
+
+<span class="code-var">status</span> = <span class="code-string">"Exploring &amp; Learning"</span></code></pre>
+            </div>
+
+            <!-- Tab 2: About.py -->
+            <div class="terminal-body tab-content" id="tab-about">
+              <pre><code class="code-block"><span class="code-comment"># Bennett University, Greater Noida</span>
+<span class="code-var">university</span> = <span class="code-string">"Bennett University"</span>
+<span class="code-var">location</span> = <span class="code-string">"Greater Noida"</span>
+<span class="code-var">focus</span> = <span class="code-string">"CS Fundamentals &amp; Programming"</span>
+
+<span class="code-var">interests</span> = [
+    <span class="code-string">"Software Development"</span>,
+    <span class="code-string">"Web Development"</span>,
+    <span class="code-string">"Problem Solving"</span>
+]</code></pre>
+            </div>
+
+            <!-- Terminal Footer Status -->
+            <div class="terminal-footer">
+              <div class="terminal-status-left">
+                <span class="status-indicator"></span>
+                <span>Python</span>
+                <span class="sep">|</span>
+                <span>UTF-8</span>
+              </div>
+              <div class="terminal-status-right">
+                <span>Bennett Campus 📍</span>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section-padding">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">// 01. Background</div>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="about-grid">
+
+          <!-- Narrative Content -->
+          <div class="about-narrative glass-card reveal-on-scroll">
+            <div class="narrative-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+            </div>
+            <p class="about-lead">
+              I'm a first-year Computer Science student at Bennett University, currently building my fundamentals in
+              programming and exploring different areas of technology. I enjoy learning by experimenting, building small
+              things, and figuring out how things work.
+            </p>
+          </div>
+
+          <!-- 3 Visual Highlight Cards -->
+          <div class="about-cards-container">
+
+            <!-- Card 1: Education -->
+            <div class="highlight-card glass-card reveal-on-scroll" data-tilt>
+              <div class="card-icon-bubble icon-education">
+                <span class="emoji-icon">🎓</span>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Education</h3>
+                <p class="card-primary-text">B.Tech CSE</p>
+                <p class="card-secondary-text">Bennett University</p>
+              </div>
+            </div>
+
+            <!-- Card 2: Focus -->
+            <div class="highlight-card glass-card reveal-on-scroll" data-tilt>
+              <div class="card-icon-bubble icon-focus">
+                <span class="emoji-icon">💻</span>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Focus</h3>
+                <p class="card-primary-text">Programming &amp; Technology</p>
+                <p class="card-secondary-text">Foundation Building &amp; Code</p>
+              </div>
+            </div>
+
+            <!-- Card 3: Mindset -->
+            <div class="highlight-card glass-card reveal-on-scroll" data-tilt>
+              <div class="card-icon-bubble icon-mindset">
+                <span class="emoji-icon">🚀</span>
+              </div>
+              <div class="card-content">
+                <h3 class="card-title">Mindset</h3>
+                <p class="card-primary-text">Learn • Build • Improve</p>
+                <p class="card-secondary-text">Curious &amp; Forward-Looking</p>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- TECHNICAL SKILLS SECTION -->
+    <section id="skills" class="section-padding bg-subtle">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">// 02. Capabilities</div>
+          <h2 class="section-title">Technical Skills</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Technologies I'm currently learning and working with.
+          </p>
+        </div>
+
+        <div class="skills-grid">
+
+          <!-- Category 1: Programming -->
+          <div class="skill-category-card glass-card reveal-on-scroll">
+            <div class="category-header">
+              <div class="cat-icon cat-prog">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3 class="category-title">Programming</h3>
+            </div>
+
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-main">
+                  <span class="skill-icon">🐍</span>
+                  <span class="skill-name">Python</span>
+                </div>
+                <span class="skill-badge badge-intermediate">Beginner</span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-main">
+                  <span class="skill-icon">⚙️</span>
+                  <span class="skill-name">C</span>
+                </div>
+                <span class="skill-badge badge-basic">Basic</span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-main">
+                  <span class="skill-icon">📊</span>
+                  <span class="skill-name">MATLAB</span>
+                </div>
+                <span class="skill-badge badge-basic">Basic</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Category 2: Web Development -->
+          <div class="skill-category-card glass-card reveal-on-scroll">
+            <div class="category-header">
+              <div class="cat-icon cat-web">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                  </path>
+                </svg>
+              </div>
+              <h3 class="category-title">Web Development</h3>
+            </div>
+
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-main">
+                  <span class="skill-icon">🌐</span>
+                  <span class="skill-name">HTML</span>
+                </div>
+                <span class="skill-badge badge-learning">Learning</span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-main">
+                  <span class="skill-icon">🎨</span>
+                  <span class="skill-name">CSS</span>
+                </div>
+                <span class="skill-badge badge-learning">Learning</span>
+              </div>
+
+              <div class="skill-item">
+                <div class="skill-main">
+                  <span class="skill-icon">⚡</span>
+                  <span class="skill-name">JavaScript</span>
+                </div>
+                <span class="skill-badge badge-learning">Learning</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Skills Bottom Callout -->
+        <div class="skills-footer-callout glass-card reveal-on-scroll">
+          <div class="callout-icon">💡</div>
+          <p class="callout-text">
+            <strong>Currently expanding my knowledge through continuous learning and hands-on practice.</strong>
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CURRENTLY LEARNING SECTION -->
+    <section id="learning" class="section-padding">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">// 03. Active Roadmap</div>
+          <h2 class="section-title">Currently Learning</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Core technologies and concepts I am actively studying and practicing every day.
+          </p>
+        </div>
+
+        <!-- Learning Topics Grid -->
+        <div class="learning-grid">
+
+          <div class="learning-pill glass-card reveal-on-scroll">
+            <span class="learning-icon">🐍</span>
+            <div class="learning-info">
+              <span class="learning-name">Python</span>
+              <span class="learning-sub">Core &amp; Scripting</span>
+            </div>
+          </div>
+
+          <div class="learning-pill glass-card reveal-on-scroll">
+            <span class="learning-icon">🌐</span>
+            <div class="learning-info">
+              <span class="learning-name">HTML</span>
+              <span class="learning-sub">Structure &amp; Semantics</span>
+            </div>
+          </div>
+
+          <div class="learning-pill glass-card reveal-on-scroll">
+            <span class="learning-icon">🎨</span>
+            <div class="learning-info">
+              <span class="learning-name">CSS</span>
+              <span class="learning-sub">Styling &amp; Responsiveness</span>
+            </div>
+          </div>
+
+          <div class="learning-pill glass-card reveal-on-scroll">
+            <span class="learning-icon">⚡</span>
+            <div class="learning-info">
+              <span class="learning-name">JavaScript</span>
+              <span class="learning-sub">Interactivity &amp; Logic</span>
+            </div>
+          </div>
+
+          <div class="learning-pill glass-card reveal-on-scroll">
+            <span class="learning-icon">🧠</span>
+            <div class="learning-info">
+              <span class="learning-name">Data Structures &amp; Algorithms</span>
+              <span class="learning-sub">Problem Solving &amp; Logic</span>
+            </div>
+          </div>
+
+          <div class="learning-pill glass-card reveal-on-scroll">
+            <span class="learning-icon">🗄️</span>
+            <div class="learning-info">
+              <span class="learning-name">Databases</span>
+              <span class="learning-sub">Data Organization &amp; SQL</span>
+            </div>
+          </div>
+
+          <div class="learning-pill glass-card reveal-on-scroll">
+            <span class="learning-icon">🤖</span>
+            <div class="learning-info">
+              <span class="learning-name">AI &amp; Emerging Technologies</span>
+              <span class="learning-sub">Modern Tech &amp; Workflows</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Visual Learning Flow -->
+        <div class="learning-flow-card glass-card reveal-on-scroll">
+          <h3 class="flow-card-heading">How I Learn</h3>
+
+          <div class="flow-steps-container">
+
+            <div class="flow-step">
+              <div class="step-num">01</div>
+              <div class="step-node">
+                <span class="step-icon">📖</span>
+              </div>
+              <h4 class="step-title">Learn</h4>
+              <p class="step-desc">Grasp core principles &amp; theory</p>
+            </div>
+
+            <div class="flow-connector" aria-hidden="true">
+              <span class="connector-line"></span>
+              <span class="connector-arrow">➔</span>
+            </div>
+
+            <div class="flow-step">
+              <div class="step-num">02</div>
+              <div class="step-node">
+                <span class="step-icon">💻</span>
+              </div>
+              <h4 class="step-title">Practice</h4>
+              <p class="step-desc">Write code &amp; solve small problems</p>
+            </div>
+
+            <div class="flow-connector" aria-hidden="true">
+              <span class="connector-line"></span>
+              <span class="connector-arrow">➔</span>
+            </div>
+
+            <div class="flow-step">
+              <div class="step-num">03</div>
+              <div class="step-node">
+                <span class="step-icon">🧪</span>
+              </div>
+              <h4 class="step-title">Experiment</h4>
+              <p class="step-desc">Build demos &amp; test new ideas</p>
+            </div>
+
+            <div class="flow-connector" aria-hidden="true">
+              <span class="connector-line"></span>
+              <span class="connector-arrow">➔</span>
+            </div>
+
+            <div class="flow-step">
+              <div class="step-num">04</div>
+              <div class="step-node">
+                <span class="step-icon">📈</span>
+              </div>
+              <h4 class="step-title">Improve</h4>
+              <p class="step-desc">Refine, iterate, and grow</p>
+            </div>
+
+          </div>
+
+          <div class="flow-summary-tag">
+            <span class="tag-bold">Learn → Practice → Experiment → Improve</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- INTERESTS SECTION -->
+    <section id="interests" class="section-padding bg-subtle">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">// 04. Curiosity</div>
+          <h2 class="section-title">Things I'm Interested In</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Areas of computer science and technology that spark my curiosity and inspire future exploration.
+          </p>
+        </div>
+
+        <div class="interests-grid">
+
+          <div class="interest-card glass-card reveal-on-scroll" data-tilt>
+            <div class="interest-icon-wrap icon-teal">
+              <span class="interest-emoji">💻</span>
+            </div>
+            <h3 class="interest-title">Software Development</h3>
+            <p class="interest-desc">
+              Interested in learning how software is designed and built.
+            </p>
+          </div>
+
+          <div class="interest-card glass-card reveal-on-scroll" data-tilt>
+            <div class="interest-icon-wrap icon-cyan">
+              <span class="interest-emoji">🌐</span>
+            </div>
+            <h3 class="interest-title">Web Development</h3>
+            <p class="interest-desc">
+              Exploring how websites work and learning to build simple web pages.
+            </p>
+          </div>
+
+          <div class="interest-card glass-card reveal-on-scroll" data-tilt>
+            <div class="interest-icon-wrap icon-purple">
+              <span class="interest-emoji">🤖</span>
+            </div>
+            <h3 class="interest-title">Artificial Intelligence</h3>
+            <p class="interest-desc">
+              Curious about AI and how it can be used in technology and development.
+            </p>
+          </div>
+
+          <div class="interest-card glass-card reveal-on-scroll" data-tilt>
+            <div class="interest-icon-wrap icon-amber">
+              <span class="interest-emoji">🧠</span>
+            </div>
+            <h3 class="interest-title">Problem Solving</h3>
+            <p class="interest-desc">
+              Enjoy breaking problems down and finding ways to solve them.
+            </p>
+          </div>
+
+          <div class="interest-card glass-card reveal-on-scroll" data-tilt>
+            <div class="interest-icon-wrap icon-blue">
+              <span class="interest-emoji">🚀</span>
+            </div>
+            <h3 class="interest-title">Emerging Technologies</h3>
+            <p class="interest-desc">
+              Interested in learning about new tools and technologies.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- STRENGTHS SECTION -->
+    <section id="strengths" class="section-padding">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">// 05. Core Qualities</div>
+          <h2 class="section-title">My Strengths</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            Personal attributes and habits that drive my growth as a student and aspiring technologist.
+          </p>
+        </div>
+
+        <div class="strengths-grid">
+
+          <div class="strength-card glass-card reveal-on-scroll">
+            <div class="strength-num">01</div>
+            <div class="strength-header">
+              <div class="strength-icon">⚡</div>
+              <h3 class="strength-name">Quick Learner</h3>
+            </div>
+            <p class="strength-text">
+              I enjoy learning new concepts and technologies.
+            </p>
+          </div>
+
+          <div class="strength-card glass-card reveal-on-scroll">
+            <div class="strength-num">02</div>
+            <div class="strength-header">
+              <div class="strength-icon">🔍</div>
+              <h3 class="strength-name">Curious</h3>
+            </div>
+            <p class="strength-text">
+              I like exploring how things work.
+            </p>
+          </div>
+
+          <div class="strength-card glass-card reveal-on-scroll">
+            <div class="strength-num">03</div>
+            <div class="strength-header">
+              <div class="strength-icon">🧩</div>
+              <h3 class="strength-name">Problem Solver</h3>
+            </div>
+            <p class="strength-text">
+              I enjoy breaking problems into smaller parts.
+            </p>
+          </div>
+
+          <div class="strength-card glass-card reveal-on-scroll">
+            <div class="strength-num">04</div>
+            <div class="strength-header">
+              <div class="strength-icon">🔄</div>
+              <h3 class="strength-name">Adaptable</h3>
+            </div>
+            <p class="strength-text">
+              I'm comfortable learning new tools and approaches.
+            </p>
+          </div>
+
+          <div class="strength-card glass-card reveal-on-scroll">
+            <div class="strength-num">05</div>
+            <div class="strength-header">
+              <div class="strength-icon">🤝</div>
+              <h3 class="strength-name">Team Player</h3>
+            </div>
+            <p class="strength-text">
+              I enjoy collaborating and learning from others.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- MY JOURNEY SECTION -->
+    <section id="journey" class="section-padding bg-subtle">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">// 06. Progression</div>
+          <h2 class="section-title">My Learning Journey</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            A few steps in my learning journey so far.
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <div class="timeline-spine" aria-hidden="true"></div>
+
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-meta">
+                <span class="timeline-phase">Phase 01</span>
+                <span class="timeline-badge">First Step</span>
+              </div>
+              <h3 class="timeline-title">Getting Started</h3>
+              <p class="timeline-desc">
+                Started exploring programming and computer science.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-meta">
+                <span class="timeline-phase">Phase 02</span>
+                <span class="timeline-badge">Core Concepts</span>
+              </div>
+              <h3 class="timeline-title">Building Fundamentals</h3>
+              <p class="timeline-desc">
+                Learning Python and strengthening programming basics.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item reveal-on-scroll">
+            <div class="timeline-marker">
+              <span class="marker-dot"></span>
+            </div>
+            <div class="timeline-card glass-card">
+              <div class="timeline-meta">
+                <span class="timeline-phase">Phase 03</span>
+                <span class="timeline-badge">Web Dev</span>
+              </div>
+              <h3 class="timeline-title">Exploring Web Development</h3>
+              <p class="timeline-desc">
+                Started learning HTML, CSS, and JavaScript.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4 (Future / Next) -->
+          <div class="timeline-item timeline-future reveal-on-scroll">
+            <div class="timeline-marker future-marker">
+              <span class="marker-dot-future"></span>
+            </div>
+            <div class="timeline-card glass-card future-card">
+              <div class="timeline-meta">
+                <span class="timeline-phase text-teal">Upcoming</span>
+                <span class="timeline-badge badge-glow">Roadmap</span>
+              </div>
+              <h3 class="timeline-title">What's Next</h3>
+              <p class="timeline-desc">
+                Improve DSA, build more projects, and explore different areas of technology.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- GOALS SECTION -->
+    <section id="goals" class="section-padding">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">// 07. Vision</div>
+          <h2 class="section-title">Where I'm Headed</h2>
+          <div class="section-divider"></div>
+        </div>
+
+        <div class="goals-wrapper glass-card reveal-on-scroll">
+
+          <div class="goals-content">
+            <div class="goals-badge">
+              <span class="goals-icon">🎯</span>
+              <span>Vision &amp; Aspirations</span>
+            </div>
+
+            <p class="goals-main-text">
+              "I'm focused on strengthening my programming fundamentals, becoming a better problem solver, and gaining
+              practical development experience. I want to keep exploring different areas of technology and build
+              meaningful projects as I progress through my B.Tech journey."
+            </p>
+
+            <div class="goals-pillars">
+              <div class="pillar-item">
+                <div class="pillar-bullet">01</div>
+                <div>
+                  <h4 class="pillar-title">Solid Foundation</h4>
+                  <p class="pillar-desc">Strengthen my programming and computer science fundamentals.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-bullet">02</div>
+                <div>
+                  <h4 class="pillar-title">Build More</h4>
+                  <p class="pillar-desc">Turn what I learn into small projects and practical applications.</p>
+                </div>
+              </div>
+
+              <div class="pillar-item">
+                <div class="pillar-bullet">03</div>
+                <div>
+                  <h4 class="pillar-title">Keep Exploring</h4>
+                  <p class="pillar-desc">Try different areas of technology and figure out what interests me most.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subtle Futuristic Tech Visual Graphic -->
+          <div class="goals-visual" aria-hidden="true">
+            <div class="futuristic-node-display">
+              <div class="orbit-circle orbit-outer"></div>
+              <div class="orbit-circle orbit-mid"></div>
+              <div class="orbit-circle orbit-inner"></div>
+
+              <div class="node-center">
+                <span class="center-glow-icon">🚀</span>
+                <span class="center-label">CSE '26+</span>
+              </div>
+
+              <div class="floating-tech-chip chip-1">DSA</div>
+              <div class="floating-tech-chip chip-2">Python</div>
+              <div class="floating-tech-chip chip-3">Web Dev</div>
+              <div class="floating-tech-chip chip-4">AI / ML</div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-padding bg-subtle">
+      <div class="container">
+
+        <div class="section-header reveal-on-scroll">
+          <div class="section-tag">// 08. Get in Touch</div>
+          <h2 class="section-title">Let's Connect</h2>
+          <div class="section-divider"></div>
+          <p class="section-subtitle">
+            I'm always open to learning, building, and connecting with people interested in technology.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+
+          <!-- Contact Channels Cards -->
+          <div class="contact-cards-col">
+
+            <!-- Email Card -->
+            <div class="contact-card glass-card reveal-on-scroll">
+              <div class="contact-card-icon icon-email">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-card-info">
+                <span class="contact-label">Email</span>
+                <span class="contact-value" id="email-text">anuragjaiswal9136@gmail.com</span>
+              </div>
+              <button class="contact-action-btn" id="copy-email-btn" title="Copy email address"
+                aria-label="Copy email address">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+                <span>Copy</span>
+              </button>
+            </div>
+
+            <!-- LinkedIn Card -->
+            <a href="https://www.linkedin.com/in/anurag-jaiswal-225474314/" target="_blank" rel="noopener noreferrer"
+              class="contact-card glass-card contact-link-card reveal-on-scroll">
+              <div class="contact-card-icon icon-linkedin">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                  <path
+                    d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.6a1.64 1.64 0 0 0-1.64 1.63c0 .91.73 1.64 1.64 1.64s1.64-.73 1.64-1.64c0-.9-.73-1.63-1.64-1.63Z" />
+                </svg>
+              </div>
+              <div class="contact-card-info">
+                <span class="contact-label">LinkedIn</span>
+                <span class="contact-value">https://www.linkedin.com/in/anurag-jaiswal-225474314/</span>
+              </div>
+              <span class="external-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </span>
+            </a>
+
+            <!-- GitHub Card -->
+            <a href="https://github.com/anurag-jswl" target="_blank" rel="noopener noreferrer"
+              class="contact-card glass-card contact-link-card reveal-on-scroll">
+              <div class="contact-card-icon icon-github">
+                <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+                </svg>
+              </div>
+              <div class="contact-card-info">
+                <span class="contact-label">GitHub</span>
+                <span class="contact-value">https://github.com/anurag-jswl</span>
+              </div>
+              <span class="external-icon" aria-hidden="true">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+              </span>
+            </a>
+
+          </div>
+
+          <!-- Quick Message Box / Direct Connect -->
+          <div class="contact-message-box glass-card reveal-on-scroll">
+            <h3 class="connect-box-title">Send a Quick Note</h3>
+            <p class="connect-box-subtitle">
+              Have a question, feedback, or want to discuss student projects &amp; technology?
+            </p>
+
+            <form id="quick-contact-form" class="connect-form">
+              <div class="form-group">
+                <label for="msg-name">Your Name</label>
+                <input type="text" id="msg-name" placeholder="E.g. Alex" class="form-input">
+              </div>
+
+              <div class="form-group">
+                <label for="msg-input">Message</label>
+                <textarea id="msg-input" rows="4" placeholder="Hi Anurag, let's connect..."
+                  class="form-input form-textarea" required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full" id="btn-get-in-touch">
+                <span>Get In Touch</span>
+                <svg viewBox="0 0 20 20" fill="currentColor" width="18" height="18" aria-hidden="true">
+                  <path
+                    d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z" />
+                </svg>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+
+      <div class="footer-brand">
+        <div class="footer-logo">
+          <span class="logo-bracket">&lt;</span><span class="logo-name">ANURAG JAISWAL</span><span class="logo-slash">
+            /</span><span class="logo-bracket">&gt;</span>
+        </div>
+        <p class="footer-subtitle">
+          B.Tech CSE Student <span class="bullet-sep">•</span> Tech Enthusiast <span class="bullet-sep">• Learner</span>
+        </p>
+        <p class="footer-location">
+          Bennett University, Greater Noida, India
+        </p>
+      </div>
+
+      <div class="footer-social-links">
+        <a href="https://www.linkedin.com/in/anurag-jaiswal-225474314/" target="_blank" rel="noopener noreferrer"
+          class="social-icon-btn" aria-label="LinkedIn Profile" title="LinkedIn">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path
+              d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.6a1.64 1.64 0 0 0-1.64 1.63c0 .91.73 1.64 1.64 1.64s1.64-.73 1.64-1.64c0-.9-.73-1.63-1.64-1.63Z" />
+          </svg>
+        </a>
+        <a href="https://github.com/anurag-jswl" target="_blank" rel="noopener noreferrer" class="social-icon-btn"
+          aria-label="GitHub Profile" title="GitHub">
+          <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" />
+          </svg>
+        </a>
+      </div>
+
+      <div class="footer-copyright">
+        <p>&copy; 2026 Anurag Jaiswal</p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Back to top" title="Back to top">
+    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+      <line x1="12" y1="19" x2="12" y2="5"></line>
+      <polyline points="5 12 12 5 19 12"></polyline>
+    </svg>
+  </button>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast-notification" role="status" aria-live="polite">
+    <span id="toast-icon">✓</span>
+    <span id="toast-message">Copied to clipboard!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+
+</html>
